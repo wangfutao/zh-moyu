@@ -1,0 +1,29 @@
+.App{
+  margin: 10px;
+  width: 400px;
+  padding: 10px;
+  box-shadow: 0 0  10px lightblue;
+
+  .configs{
+    .tips{
+      color: #999;
+      font-size: 12px;
+    }
+    .item{
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+      .name{
+        flex: 1;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      .value{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+    }
+  }
+
+}

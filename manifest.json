@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "ZH摸鱼小助手",
+  "version": "1.0",
+  "description": "ZH摸鱼小助手",
+  "action": {
+    "default_popup": "popup-rt/build/index.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage"],
+  "content_scripts": [{
+    "matches": ["https://www.zhihu.com/*"],
+    "js": ["main.js"],
+    "css": ["main.css"],
+    "run_at": "document_end"
+  }]
+}
+
+
+

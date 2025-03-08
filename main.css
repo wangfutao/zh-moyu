@@ -1,0 +1,72 @@
+/*以下是首页列表页*/
+/*隐藏顶部*/
+.zh-moyu .AppHeader{
+    display: none;
+}
+
+/*隐藏 关注 推荐 热榜 视频*/
+.zh-moyu .TopstoryTabs {
+    display: none;
+}
+
+/*中间内容占比屏幕的80%*/
+.zh-moyu .Topstory-container{
+    width: 80%;
+}
+.zh-moyu .Topstory-mainColumn{
+    width: 100%;
+}
+
+/*隐藏右侧*/
+.zh-moyu .Topstory-container>div:last-child{
+    display: none;
+}
+
+/*文章标题 变小 变细*/
+.zh-moyu .ContentItem-title{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/*隐藏 分享 收藏等，只显示评论*/
+.zh-moyu .ContentItem-actions>*{
+    display: none;
+}
+.zh-moyu .ContentItem-actions>*:nth-child(2){
+    display: block;
+}
+/*隐藏评论的小图标*/
+.zh-moyu .ContentItem-actions>*:nth-child(2) span{
+    display: none !important;
+}
+
+/*图片最宽30%*/
+.zh-moyu img{
+    max-width: 30% !important;
+}
+
+/*以下是问题详情页*/
+.zh-moyu .QuestionHeader-title{
+    font-weight: normal;
+    font-size: 14px;
+}
+/*隐藏话题列表*/
+.zh-moyu .QuestionHeader-topics{
+    display: none;
+}
+/*隐藏关注、写回答、邀请回答等*/
+.zh-moyu .QuestionHeader-footer{
+    display: none;
+}
+/*隐藏关注者、被浏览*/
+.zh-moyu .QuestionHeader-side{
+    display: none;
+}
+/*隐藏问题详情页右侧*/
+.zh-moyu .Question-sideColumn{
+    display: none !important;
+}
+/*内容部分宽度100%*/
+.zh-moyu .Question-mainColumn{
+    width: 100% !important;
+}
